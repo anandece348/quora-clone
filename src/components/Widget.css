@@ -1,0 +1,36 @@
+.widget {
+    flex: 0.2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: fit-content;
+    background-color: white;
+  }
+  
+  .widget__header {
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .widget__header {
+    width: 350px;
+    /* height: 300px; */
+    /* padding: 10px; */
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    letter-spacing: 1.1px;
+  }
+  
+  .widget__contents {
+    display: flex;
+    flex-direction: column;
+    height: 3000px;
+  }
+  #space-follow{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1.2rem;
+  }
